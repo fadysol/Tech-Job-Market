@@ -75,15 +75,15 @@ barplot(numbers_by_age_range_vector, names.arg = age_ranges,
 current_year_index <- 2025 - 2019 + 1
 uniform_dist_per_year_55_to_64 <- numbers_by_age_range_vector[length(numbers_by_age_range_vector)-1] * 1000 / 10
 
-demand_mean_ts[current_year_index:length(demand_mean_ts)] <- demand_mean_ts[current_year_index:length(demand_mean_ts)] - tail(numbers_by_age_range_vector, 1) * 1000
-demand_mean_ts[length(demand_mean_ts)] <- demand_mean_ts[length(demand_mean_ts)] - uniform_dist_per_year_55_to_64
+demand_mean_ts[current_year_index:length(demand_mean_ts)] <- demand_mean_ts[current_year_index:length(demand_mean_ts)] + tail(numbers_by_age_range_vector, 1) * 1000
+demand_mean_ts[length(demand_mean_ts)] <- demand_mean_ts[length(demand_mean_ts)] + uniform_dist_per_year_55_to_64
 
 # Best-case scenario is people retire at 62
-demand_best_case_ts[current_year_index:length(demand_best_case_ts)] <- demand_best_case_ts[current_year_index:length(demand_best_case_ts)] - tail(numbers_by_age_range_vector, 1) * 1000
-demand_best_case_ts[current_year_index:length(demand_best_case_ts)] <- demand_best_case_ts[current_year_index:length(demand_best_case_ts)] - uniform_dist_per_year_55_to_64 * 3
+demand_best_case_ts[current_year_index:length(demand_best_case_ts)] <- demand_best_case_ts[current_year_index:length(demand_best_case_ts)] + tail(numbers_by_age_range_vector, 1) * 1000
+demand_best_case_ts[current_year_index:length(demand_best_case_ts)] <- demand_best_case_ts[current_year_index:length(demand_best_case_ts)] + uniform_dist_per_year_55_to_64 * 3
 
 for (i in 1:3) {
-  demand_best_case_ts[current_year_index+i-1] <- demand_best_case_ts[current_year_index+i-1] - uniform_dist_per_year_55_to_64 * i
+  demand_best_case_ts[current_year_index+i-1] <- demand_best_case_ts[current_year_index+i-1] + uniform_dist_per_year_55_to_64 * i
 }
 
 # Reset the margins
