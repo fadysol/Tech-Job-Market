@@ -32,13 +32,12 @@ Labor market data is obtained from the US Bureau of Labor Statistics (BLS), and 
 2. The best-case scenario is taken as the minimum possible supply and the maximum possible demand.
 3. Minimum and maximum refer to the upper and lower bounds of a 95% credible interval.
 4. While the rise of AI has certainly decreased the demand of software developers, it has increased the demand of AI and ML engineers. The effect is included in the calculations.
-5. Bayesian structural time series (BSTS) is used to fit the models for both supply and demand.
-6. The ratio is calculated using the number of graduates each year relative to the number of **NEW** openings during that same year.
-7. Prediction is more accurate near the present time, and gets less accurate for future time.
-8. The workforce headcount by age range is assumed to be uniformly distributed among all ages in that range.
-9. Labor market behavior remains relatively stable and free of major disruptions.
-10. Graduates join the work force directly after graduation.
-11. Government policies regarding immigration and foreign labor remain unchanged.
+5. The ratio is calculated using the number of graduates each year relative to the number of **NEW** openings during that same year.
+6. Prediction is more accurate near the present time, and gets less accurate for future time.
+7. The workforce headcount by age range is assumed to be uniformly distributed among all ages in that range.
+8. Labor market behavior remains relatively stable and free of major disruptions.
+9. Graduates join the work force directly after graduation.
+10. Government policies regarding immigration and foreign labor remain unchanged.
 
 ## Shortfalls
 1. The data isn't up to date. Graduation data is available up until the year 2022. Job market data is available up until the year 2023.
@@ -51,6 +50,7 @@ Labor market data is obtained from the US Bureau of Labor Statistics (BLS), and 
 8. BLS data may not fully represent the true population due to the methods of data collection used. It may not be a perfect reflection of the actual labor market, yet it is a very reliable source.
 
 ## Findings
-<img width="630" alt="Screen Shot 2025-02-07 at 12 36 26 AM" src="https://github.com/user-attachments/assets/6f132f60-0247-4769-baf0-b904b06473b0" />
+<img width="744" alt="Screen Shot 2025-02-07 at 7 32 10 AM" src="https://github.com/user-attachments/assets/c4edd948-b2f9-405d-b43b-562d6b6b10c3" />
 
-Results show that getting a CS degree still has a promising future, and that the number of new jobseekers per position remain balanced, mostly below 1 jobseeker per position; indicating a strong demand and balanced supply. However, 2025 seems to be a challenging year for job seekers relative to 2024 (which was tough already).
+
+Results show that getting a CS degree still has a promising future, and that the number of new jobseekers per position remain balanced, mostly below 1 jobseeker per position; indicating a strong demand and balanced supply. The year 2024 was a little tough for jobseekers, but the market will self-adjust and the supply-demand will balance.
