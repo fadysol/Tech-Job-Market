@@ -51,5 +51,6 @@ Labor market data is obtained from the US Bureau of Labor Statistics (BLS), and 
 8. BLS data may not fully represent the true population due to the methods of data collection used. It may not be a perfect reflection of the actual labor market, yet it is a very reliable source.
 
 ## Findings
+<img width="630" alt="Screen Shot 2025-02-07 at 12 36 26 AM" src="https://github.com/user-attachments/assets/6f132f60-0247-4769-baf0-b904b06473b0" />
 
 Results show that getting a CS degree still has a promising future, and that the number of new jobseekers per position remain balanced, mostly below 1 jobseeker per position; indicating a strong demand and balanced supply. However, 2025 seems to be a challenging year for job seekers relative to 2024 (which was tough already).
